@@ -12,6 +12,16 @@ This codebase is inspired by the following works:
 ## Model Details
 **model_size:** 'base384' 📏
 
+# TODO List 📋
+
+1. **Knowledge Distillation with DyMN Models:**
+   - Following the approach in [EfficientAT](https://github.com/fschmid56/EfficientAT), we will soon be adding Knowledge Distillation with DyMN models as teachers for our Faster Audio Transformers. 🤖📚
+
+2. **Paper in ArXiv Format:**
+   - Prepare and submit a paper in interspeech 2024 format. 📄🔍
+
+
+
 ## Training for Speech Command 🎤
 
 1. **Navigate to the project directory:**
