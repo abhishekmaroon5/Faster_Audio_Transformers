@@ -12,15 +12,13 @@ This codebase is inspired by the following works:
 ## Model Details
 **model_size:** 'base384' 📏
 
-# TODO List 📋
+## Features of the Repo 🛠️
 
-1. **Knowledge Distillation with DyMN Models:**
-   - Following the approach in [EfficientAT](https://github.com/fschmid56/EfficientAT), we will soon be adding Knowledge Distillation with DyMN models as teachers for our Faster Audio Transformers. 🤖📚
+1. **Faster Attention for Audio Transformers using Token Merging:**
+   - Implemented token merging to achieve faster attention for Audio Transformers, improving efficiency without sacrificing performance. 🚀
 
-2. **Paper in ArXiv Format:**
-   - Prepare and submit a paper in interspeech 2024 format. 📄🔍
-
-
+2. **Knowledge Distillation with DyMN Models:**
+   - Knowledge distillation with DyMN models, following the approach outlined in [EfficientAT](https://github.com/fschmid56/EfficientAT), has been implemented. 🤖📚
 
 ## Training for Speech Command 🎤
 
