@@ -140,3 +140,20 @@ Activities for this week ( thursday and Friday):
 1) Download pretrain CNN model on audioset.(done)
 2) Generate logits for the wav files we have(527 values).(done)
 3) Use above logits in Kd for ast.(todo)
+
+
+
+
+CUDA_VISIBLE_DEVICES=2 python -W ignore ../../src/run_kd.py --model ast --dataset audioset --data-train ./data/datafiles/balanced_train_segments.json --data-val ./data/datafiles/eval_segments.json --exp-dir ./exp_kd/ --label-csv ./data/class_labels_indices.csv --n_class 527 --lr 2.5e-4 --n-epochs 16 --batch-size 8 --save_model True --freqm 48 --timem 192 --mixup 0.5 --bal none --tstride 10 --fstride 12 --imagenet_pretrain True --dataset_mean -4.2677393 --dataset_std 4.5689974 --audio_length 1024 --noise False --metrics mAP --loss BCE --warmup True --lrscheduler_start 10 --lrscheduler_step 5 --lrscheduler_decay 0.5 --wa True --wa_start 6 --wa_end 25 --kd_lambda 0.1
+
+
+
+Todo:
+
+Complete Kd experiments, compare no-kd, passt-kd and cnn-kd.(done)
+
+Go through Effiecint-at, tome and ast.(todo)
+
+Plan experiments for ablations study.(todo)
+
+Formulate our code and check in to git(todo)
